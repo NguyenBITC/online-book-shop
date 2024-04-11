@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-book"> Medium Nguyen.</i></a>
+            <form action="" class="search-form">
+                <input type="search" name="" id="search-box" placeholder="search here...">
+                <label for="search-box"><i class="fas fa-search"></i></label>
+
+            </form>
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href=""><i class="fas fa-heart"></i></a>
+                <a href=""><i class="fas fa-shopping-cart" ></i>
+             
+                <div id="login-btn" class="fas fa-user"></div>
+                <img src="./images/author-1.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="index.html">home</a>
+                <a href="product.html">shop</a>
+                <a href="about.html">blog</a>
+                <a href="cart.html">cart</a>
+                <a href="contact.html">contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- head section ends -->
+    <!-- bottom navbar -->
+<!-- bottom navbar -->
+<nav class="bottom-navbar">
+    <a href="index.html" class="fas fa-home"></a>
+    <a href="product.html" class="fas fa-list"></a>
+    <a href="about.html" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="contact.html" class="fas fa-address-book"></i></a>
+</nav>
+    <!-- deal section starts-->
+ 
+    <section class="deal">
+        <div class="content">
+            <h3>deal of the day</h3>
+            <h1>upto 50% off</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quas. Incidunt illum exercitationem
+                totam quae repellat iure rem, veritatis asperiores!</p>
+            <!-- <a href="#" class="btn">shop now</a> -->
+        </div>
+        <div class="image"><img src="./images/deal-img.jpg" alt=""></div>
+    </section>
+
+
+    <!-- deal section ends-->
+    <!-- <section class="animatedcart">
+        <div class="shopping-container">
+            <div class="counter-container">
+                <span id="counter">1</span>
+                <i data-feather="shopping-cart"></i>
+            </div>
+        </div>
+      </section> -->
+    <!-- product section starts -->
+    <section class="products" id="products">
+        <h1 class="heading"><span>products</span></h1>
+        <div class="box-container">
+            <div class="box" onclick="window.location.href='details.html'">
+                <div class="image">
+                    <img src="./images/b11.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn" >add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>night shade</h3>
+                    <div class="price">$6.5 <span>$13.50</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="./images/b12.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn" id="animated">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>radical gardening</h3>
+                    <div class="price">$3.5 <span>$27</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="./images/b13.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>red queen</h3>
+                    <div class="price">$5.9 <span>$15</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="./images/b14.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>dick francis</h3>
+                    <div class="price">$10 <span>$16.5</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-3%</span>
+                <div class="image">
+                    <img src="./images/b15.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>the girl of ink stars</h3>
+                    <div class="price">$18 <span>$24.5</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-8%</span>
+                <div class="image">
+                    <img src="./images/b16.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>the happy lemon</h3>
+                    <div class="price">$13.9 <span>$16.5</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="./images/b17.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>the world of abstact art</h3>
+                    <div class="price">$3.9 <span>$16.5</span></div>
+                </div>
+            </div>
+            <div class="box">
+                
+                <div class="image">
+                    <img src="./images/b8.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>history</h3>
+                    <div class="price">$16.5</div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="./images/b9.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>holy ghosts</h3>
+                    <div class="price">$13.9<span>$16.5</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <!-- <span class="discount">-10%</span> -->
+                <div class="image">
+                    <img src="./images/b10.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>apocalypse</h3>
+                    <div class="price">$13.9</div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="./images/b7.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>free fall</h3>
+                    <div class="price">$13.9<span>$16.5</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="./images/b5.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>mather</h3>
+                    <div class="price">$13.9<span>$16.5</span></div>
+                </div>
+            </div>
+        </div>
+        <div id="previous-next-parent">
+            
+            <div><a href="product.html"><button id="btn1">1</button></a></div>
+    <div><a href="page2.html"><button id="btn2">2</button></a></div>
+    <div><a href="#"><button id="btn3">3</button></a></div>
+            
+        </div>
+    </section>
+
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>our locations</h3>
+                <a href="#"><i class="fas fa-map-market-alt"> Viet nam</i></a>
+                <a href="#"><i class="fas fa-map-market-alt"> USA</i></a>
+                <a href="#"><i class="fas fa-map-market-alt"> China</i></a>
+                <a href="#"><i class="fas fa-map-market-alt"> russia</i></a>
+                <a href="#"><i class="fas fa-map-market-alt"> japan</i></a>
+                <a href="#"><i class="fas fa-map-market-alt"> Korea</i></a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"><i class="fas fa-arrow-right"> home</i></a>
+                <a href="#"><i class="fas fa-arrow-right"> featured</i></a>
+                <a href="#"><i class="fas fa-arrow-right"> arrivals</i></a>
+                <a href="#"><i class="fas fa-arrow-right"> reviews</i></a>
+                <a href="#"><i class="fas fa-arrow-right"> contact</i></a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-map-market-alt"> account info</i></a>
+                <a href="#"><i class="fas fa-map-market-alt"> ordered items</i></a>
+                <a href="#"><i class="fas fa-map-market-alt"> privacy policy</i></a>
+                <a href="#"><i class="fas fa-map-market-alt"> paument method</i></a>
+                <a href="#"><i class="fas fa-map-market-alt"> our service</i></a>
+
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"> +84867742359</i></a>
+                <a href="#"><i class="fas fa-phone"> +843653825752</i></a>
+                <a href="#"><i class="fas fa-map-market-alt"> nguyenhvtbd00471@fpt.edu.vn</i></a>
+            </div>
+
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+        <div class="creadit"> created by <span>medium nguyen</span> | all rights reserved!</div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
