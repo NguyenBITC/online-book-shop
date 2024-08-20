@@ -11,9 +11,6 @@ document.querySelector('#close-login-btn').onclick = ()=>{
     loginForm.classList.remove("active");
 }
 
-
-
-
 let loginForm = document.querySelector('.login-form-container');
 let signUpForm = document.querySelector('.signup-form-container');
 let signupLink = document.querySelector('#signup-link');
